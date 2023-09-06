@@ -3,9 +3,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"type": "module",
-	"exports": {
-		"./reset.css": "./modules/reset.css"
-	},
+	"main": "./modules/reset.css",
 	"files": [
 		"modules"
 	],

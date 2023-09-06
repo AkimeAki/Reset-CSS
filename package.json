@@ -1,0 +1,21 @@
+{
+	"name": "aki-reset-css",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"exports": {
+		"./reset.css": "./modules/reset.css"
+	},
+	"files": [
+		"modules"
+	],
+	"scripts": {
+		"build": "make build",
+		"lint": "eslint './src/**/*.{ts,tsx,astro}'",
+		"lint:fix": "npm run lint -- --fix; prettier --write './**/*'"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.8",
+		"sass": "^1.66.1"
+	}
+}

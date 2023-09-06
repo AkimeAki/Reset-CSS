@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"EditorConfig.EditorConfig",
+		"ms-vscode-remote.remote-containers"
+	],
+	"unwantedRecommendations": []
+}

@@ -1,0 +1,14 @@
+{
+	"name": "App",
+	"dockerComposeFile": "./compose.yml",
+	"service": "app",
+	"workspaceFolder": "/app/",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"EditorConfig.EditorConfig"
+			]
+		}
+	}
+}

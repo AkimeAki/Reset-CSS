@@ -1,3 +1,4 @@
+# import
 ```js
-import "aki-modules/reset.css";
+import "aki-reset-css";
 ```

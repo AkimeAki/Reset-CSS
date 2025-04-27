@@ -14,7 +14,7 @@
 	"scripts": {
 		"format": "prettier --write './**/*'",
 		"build": "rm -rf ./modules/* && sass --no-source-map --style=compressed ./src/reset.scss ./modules/reset.css",
-		"publish": "npm run build && npm publish --access=public"
+		"publish": "npm run build && npm login && npm publish --access=public"
 	},
 	"devDependencies": {
 		"prettier": "3.3.3",

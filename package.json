@@ -1,6 +1,6 @@
 {
 	"name": "@akimeaki/reset-css",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"type": "module",
 	"main": "./modules/reset.css",
 	"files": [
@@ -14,7 +14,7 @@
 	"scripts": {
 		"format": "prettier --write './**/*'",
 		"build": "rm -rf ./modules/* && sass --no-source-map --style=compressed ./src/reset.scss ./modules/reset.css",
-		"publish": "npm run build && npm login && npm publish --access=public"
+		"push": "npm run build && npm login && npm publish --access=public"
 	},
 	"devDependencies": {
 		"prettier": "3.3.3",

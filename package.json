@@ -1,6 +1,6 @@
 {
 	"name": "@akimeaki/reset-css",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"type": "module",
 	"main": "./modules/reset.css",
 	"files": [

@@ -13,7 +13,7 @@
 	},
 	"scripts": {
 		"format": "prettier --write './**/*'",
-		"build": "sass src/reset.scss modules/reset.css",
+		"build": "rm -rf ./modules/* && sass --no-source-map --style=compressed ./src/reset.scss ./modules/reset.css",
 		"publish": "npm run build && npm publish --access=public"
 	},
 	"devDependencies": {

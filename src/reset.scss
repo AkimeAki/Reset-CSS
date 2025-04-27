@@ -1,5 +1,5 @@
 @layer base {
-	* {
+	body {
 		box-sizing: border-box;
 		padding: 0;
 		margin: 0;
@@ -11,6 +11,29 @@
 		text-decoration: none;
 		font-weight: normal;
 		text-align: left;
+		font-variant-ligatures: none;
+		-webkit-tap-highlight-color: transparent;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+		word-break: break-word;
+	}
+
+	* {
+		box-sizing: inherit;
+		padding: inherit;
+		margin: inherit;
+		word-wrap: inherit;
+		overflow-wrap: inherit;
+		word-break: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		line-height: inherit;
+		color: inherit;
+		text-decoration: inherit;
+		font-weight: inherit;
+		font-variant-ligatures: inherit;
+		text-align: linherit;
+		-webkit-tap-highlight-color: inherit;
 	}
 
 	*:focus {
@@ -30,5 +53,9 @@
 		padding-inline-start: 40px;
 		margin-inline-start: 0;
 		margin-inline-end: 0;
+
+		* {
+			padding-inline-start: 0;
+		}
 	}
 }

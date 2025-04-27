@@ -1,8 +1,5 @@
 @layer base {
 	body {
-		box-sizing: border-box;
-		padding: 0;
-		margin: 0;
 		font-family: "游ゴシック体", YuGothic, "游ゴシック", "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro",
 			"ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", sans-serif;
 		font-size: 18px;
@@ -20,8 +17,9 @@
 
 	* {
 		box-sizing: inherit;
-		padding: inherit;
-		margin: inherit;
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
 		word-wrap: inherit;
 		overflow-wrap: inherit;
 		word-break: inherit;

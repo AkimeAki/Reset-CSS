@@ -1,8 +1,14 @@
 {
 	"name": "@akimeaki/reset-css",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"type": "module",
 	"main": "./modules/reset.css",
+	"engines": {
+		"node": "20.16.0"
+	},
+	"volta": {
+		"node": "20.16.0"
+	},
 	"files": [
 		"modules"
 	],
@@ -13,12 +19,12 @@
 	},
 	"scripts": {
 		"format": "prettier --write './**/*'",
-		"build": "rm -rf ./modules/* && sass --no-source-map --style=compressed ./src/reset.scss ./modules/reset.css",
-		"push": "npm run build && npm login && npm publish --access=public"
+		"build": "rimraf ./modules/ && sass --no-source-map --style=compressed ./src/reset.scss ./modules/reset.css"
 	},
 	"devDependencies": {
 		"prettier": "3.3.3",
 		"prettier-plugin-sh": "0.14.0",
+		"rimraf": "6.1.2",
 		"sass": "1.87.0"
 	}
 }

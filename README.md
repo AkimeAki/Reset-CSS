@@ -1,14 +1,10 @@
-# このパッケージについて / About
+# About
 
-このパッケージは、作者個人の利用を主目的として作成したリセットCSSです。
-特定の思想や好みに基づいて設計されており、汎用的な利用を保証するものではありません。
+作者が個人的に使っているリセットCSSです。
+好みベースの設計なので、必要に応じて自由に調整してください。
 
-This package is a reset CSS primarily created for the author's personal use.
-It is designed based on specific preferences and opinions, and is not intended to be a universal solution.
-
-考え方や挙動が合う場合は、自由に利用・カスタマイズしてください。
-
-If its behavior and design philosophy fit your needs, feel free to use and customize it.
+This is a reset CSS that the author uses for personal projects.
+It is designed based on personal preferences, so feel free to adjust it as needed.
 
 # インストール
 

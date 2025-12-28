@@ -1,10 +1,11 @@
 @layer aki-reset {
 	body {
+		--black: #494949;
 		font-family: "游ゴシック体", YuGothic, "游ゴシック", "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro",
 			"ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", sans-serif;
 		font-size: 18px;
 		line-height: 1;
-		color: #494949;
+		color: var(--black);
 		text-decoration: none;
 		font-weight: normal;
 		font-variant-ligatures: none;
@@ -58,7 +59,7 @@
 	textarea {
 		appearance: none;
 		background-color: transparent;
-		border: 1px solid #494949;
+		border: 1px solid var(--black);
 		border-radius: 0;
 	}
 
@@ -68,8 +69,14 @@
 
 	button {
 		background-color: transparent;
-		border: 1px solid #494949;
+		border: 1px solid var(--black);
 		border-radius: 0;
+		cursor: pointer;
+		user-select: none;
+	}
+
+	a {
+		cursor: pointer;
 	}
 
 	table,
@@ -78,7 +85,7 @@
 	tr,
 	th,
 	td {
-		border: 1px solid #494949;
+		border: 1px solid var(--black);
 		border-radius: 0;
 		border-collapse: collapse;
 	}
